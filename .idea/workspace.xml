@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5cb3749-fd78-456b-acdd-89d1c40c4250" name="Changes" comment="Add a .env file to hide sensitive values in production">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fredmaina/bank/database/DatabaseConnection.java" afterDir="false" />
+    <list default="true" id="f5cb3749-fd78-456b-acdd-89d1c40c4250" name="Changes" comment="Add several required files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fredmaina/bank/controllers/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fredmaina/bank/controllers/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fredmaina/bank/database/DataBaseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fredmaina/bank/database/DataBaseOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,63 @@
       <option name="project" value="LOCAL" />
       <updated>1731158103389</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Connect to the MySQL database">
+      <option name="closed" value="true" />
+      <created>1731158599114</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731158599114</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add dependencies to pom.xml">
+      <option name="closed" value="true" />
+      <created>1731158659615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731158659615</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Edit workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731158685342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731158685342</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add a bank class to test our database connection">
+      <option name="closed" value="true" />
+      <created>1731158718331</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731158718331</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add a schema. Shows how my database is structured">
+      <option name="closed" value="true" />
+      <created>1731158786974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731158786974</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add a User model">
+      <option name="closed" value="true" />
+      <created>1731158845782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731158845782</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add several required files">
+      <option name="closed" value="true" />
+      <created>1731158871155</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731158871155</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +172,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add a .env file to hide issues in production" />
     <MESSAGE value="Add a .env file to hide sensitive values in production" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a .env file to hide sensitive values in production" />
+    <MESSAGE value="Connect to the MySQL database" />
+    <MESSAGE value="Add dependencies to pom.xml" />
+    <MESSAGE value="Edit workspace.xml" />
+    <MESSAGE value="Add a bank class to test our database connection" />
+    <MESSAGE value="Add getAllUsers method on the database operations" />
+    <MESSAGE value="Add a schema. Shows how my database is structured" />
+    <MESSAGE value="Add a User model" />
+    <MESSAGE value="Add several required files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add several required files" />
   </component>
 </project>
