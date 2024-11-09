@@ -13,6 +13,8 @@ public class Bank {
         for(User user: allUsers){
             System.out.println(user);
         }
+        User user =DataBaseOperations.getUserByID(1);
+        System.out.println(user);
         }
 
     }
