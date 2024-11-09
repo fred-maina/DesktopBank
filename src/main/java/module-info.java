@@ -10,6 +10,8 @@ module com.fredmaina.bank {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
+    requires io.github.cdimascio.dotenv.java;
 
     opens com.fredmaina.bank to javafx.fxml;
     exports com.fredmaina.bank;
