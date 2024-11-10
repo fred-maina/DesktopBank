@@ -2,6 +2,7 @@ package com.fredmaina.bank.controllers;
 
 import com.fredmaina.bank.database.DataBaseOperations;
 import com.fredmaina.bank.database.DatabaseConnection;
+import com.fredmaina.bank.models.Account;
 import com.fredmaina.bank.models.User;
 
 import java.util.List;
@@ -13,9 +14,19 @@ public class Bank {
         for(User user: allUsers){
             System.out.println(user);
         }
-        User user =DataBaseOperations.getUserByID(1);
-        System.out.println(user);
         }
+        User user =DataBaseOperations.getUserByID(1);
+        if (user!=null) {
+            System.out.println(user);
+            List<Account> accounts=DataBaseOperations.getAccountByUserId(user.getId());
+            if(accounts != null){
+                for (Account account:accounts){
+                    System.out.println(account);
+                }
+            }
+        }
+
+
 
     }
 }
